@@ -1,6 +1,6 @@
 const mongoose=require('mongoose');
 const plm=require('passport-local-mongoose')
-mongoose.connect("mongodb://127.0.0.1:27017/VisualVerse");
+mongoose.connect("mongodb+srv://aritrarana2:pdtvJh37AkwDrFuV@visualverse.d98pbjc.mongodb.net/?retryWrites=true&w=majority");
 const userSchema = new mongoose.Schema({
   username: {
     type: String,
